@@ -18,6 +18,7 @@ main_page_head = '''
         body {
             padding-top: 80px;
             font-family: 'Cormorant', serif;
+            background-color: floralwhite;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
