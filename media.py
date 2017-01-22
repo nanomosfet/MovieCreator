@@ -30,12 +30,13 @@ def create_movie(title, youtube_url):
 
     # Using ombdapi to get a json formated
     request_to_ombd_api = urllib.urlopen(
-        "http://www.omdbapi.com/?t="+title+"&y=&plot=short&r=json")
+        "http://www.omdbapi.com/?t=" + title + "&y=&plot=short&r=json")
     json_parsed = json.load(request_to_ombd_api)
 
     # Takes Parsed JSON object and puts it into a Movie Object
-    if(json_parsed['Response'] == 'False'):
-        print(title+' '+'not found')
+    # if the movie exists
+    if json_parsed['Response'] == 'False':
+        print title+' '+'not found'
         return 0
     else: # Save information into Movie object
         movie = Movie(

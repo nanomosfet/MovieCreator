@@ -9,13 +9,14 @@ pulp_fiction = media.create_movie(
 shawshank = media.create_movie(
     "The Shawshank Redemption",
     "https://www.youtube.com/watch?v=6hB3S9bIaco")
+
 up = media.create_movie(
     "Up",
     "https://www.youtube.com/watch?v=pkqzFUhGPJg")
-
 war_dogs = media.create_movie(
     "War Dogs",
     "https://www.youtube.com/watch?v=Rwh9c_E3dJk")
+
 due_date = media.create_movie(
     "Due Date",
     "https://www.youtube.com/watch?v=Hd_aN0LAgMo")
