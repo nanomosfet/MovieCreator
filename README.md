@@ -34,6 +34,8 @@ Now call `fresh_tomatoes.open_movies_page(favorite_movies)`
 
 Your favorite movies should pop open on your default browser.
 
+You can run this example with example.py
+
 ## Known Issues
 The create_movie method requires the youtube url. I haven't found
 a reliable way of getting the accurate youtube URL. A possible
