@@ -7,6 +7,8 @@ movie. You can also click on the tile if you want to view a trailer of the movie
 Make sure that you have Python installed.
   * This was tested with Python 2.7 and have not with 3
 
+Create new script or open python command line
+
 Import the Movie Site Creator files
 ```python
 import media
