@@ -19,8 +19,8 @@ Use `create_movie(movie_title,trailer_url)` method to create your favorite
 An example of this is shown below:
 ```python
 pulp_fiction = media.create_movie(
-          "Pulp Fiction",
-          "https://www.youtube.com/watch?v=s7EdQ4FqbhY")
+    "Pulp Fiction",
+    "https://www.youtube.com/watch?v=s7EdQ4FqbhY")
 ```
 An example of referencing the object is below:
 ```python
