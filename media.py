@@ -2,19 +2,25 @@ import webbrowser
 import urllib
 import json
 
-# This is the Movie Datastructure Class.
-# Objects of this type contain the following information:
-#       Title of Movie
-#       Story Line
-#       poster imgage url
-#       trailer youtube url
+
 class Movie():
+    """
+    This is the Movie Datastructure Class.
+    Objects of this type contain the following information:
+        Attributes:
+            title (str): This is the title of the movie
+            storyline (str): This is the storyline of the movie
+            poster_image_url: URL to poster image
+            trailer_youtube_url: URL to Youtube trailer
+
+    """
     # Constructor to Movie Class
     def __init__(
         self,
         movie_title,
         movie_storyline,
-        poster_image, youtube_url):
+        poster_image,
+        youtube_url):
             self.title = movie_title
             self.storyline = movie_storyline
             self.poster_image_url = poster_image
