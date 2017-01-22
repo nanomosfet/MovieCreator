@@ -10,8 +10,8 @@ class Movie():
         Attributes:
             title (str): This is the title of the movie
             storyline (str): This is the storyline of the movie
-            poster_image_url: URL to poster image
-            trailer_youtube_url: URL to Youtube trailer
+            poster_image_url (str): URL to poster image
+            trailer_youtube_url (str): URL to Youtube trailer
 
     """
     # Constructor to Movie Class
