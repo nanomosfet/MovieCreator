@@ -6,6 +6,7 @@ movie. You can also click on the tile if you want to view a trailer of the movie
 ## How to use the Movie Site Creator
 Make sure that you have Python installed.
   * This was tested with Python 2.7 and have not with 3
+
 Import the Movie Site Creator files
 ```python
 import media
