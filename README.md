@@ -35,7 +35,8 @@ favorite_movies = [pulp_fiction, up, war_dogs, starsky_and_hutch]
 ```
 Now call `fresh_tomatoes.open_movies_page(favorite_movies)`
 
-Your favorite movies should pop open on your default browser.
+Your favorite movies should pop open on your default browser and
+a fresh_tomatoes.html file should be located in your run directory.
 
 You can run this example with example.py
 
